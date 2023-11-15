@@ -1,0 +1,196 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{7C00E94B-EE90-426A-8913-84FD7C5BAFF6}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "pm_icon.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "ProjectManager"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "ProjectManager"
+                StartupObject = "ProjectManager.StartUpForm"
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "System.Configuration.Install"
+                    AssemblyName = "System.Configuration.Install"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Configuration.Install.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Drawing" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Windows.Forms" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "binaryTextWriter.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "binaryTextWriter.resx"
+                    DependentUpon = "binaryTextWriter.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "CreateNewProject.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "CreateNewProject.resx"
+                    DependentUpon = "CreateNewProject.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "GererateProjectReport.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "GererateProjectReport.resx"
+                    DependentUpon = "GererateProjectReport.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "manualVersionInfo.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "manualVersionInfo.resx"
+                    DependentUpon = "manualVersionInfo.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Operations.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "projectMonitor.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "projectMonitor.resx"
+                    DependentUpon = "projectMonitor.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "projects.xsd"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "projects.xsx"
+                    DependentUpon = "projects.xsd"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "StartUpForm.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "StartUpForm.resx"
+                    DependentUpon = "StartUpForm.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Welcome.vb"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Welcome.resx"
+                    DependentUpon = "Welcome.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

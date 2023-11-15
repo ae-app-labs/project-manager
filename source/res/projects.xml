@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<projectman xmlns="http://tempuri.org/projects.xsd">
+    <project>
+        <title>
+        </title>
+        <version>
+        </version>
+        <description>
+        </description>
+        <workingDir>
+        </workingDir>
+        <startDate>
+        </startDate>
+        <designTime>
+        </designTime>
+        <codingTime>
+        </codingTime>
+        <testingTime>
+        </testingTime>
+        <documentation>
+        </documentation>
+        <reportFile>
+        </reportFile>
+        <versionInfoFile>
+        </versionInfoFile>
+        <workHistoryFile>
+        </workHistoryFile>
+    </project>
+</projectman>

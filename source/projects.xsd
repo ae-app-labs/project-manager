@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<xs:schema id="projectman" targetNamespace="http://tempuri.org/projects.xsd" xmlns:mstns="http://tempuri.org/projects.xsd"
+	xmlns="http://tempuri.org/projects.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="projectman" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="project">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="title" type="xs:string" minOccurs="0" />
+							<xs:element name="version" type="xs:integer" minOccurs="0" />
+							<xs:element name="description" type="xs:string" minOccurs="0" />
+							<xs:element name="workingDir" type="xs:string" minOccurs="0" />
+							<xs:element name="startDate" type="xs:date" minOccurs="0" />
+							<xs:element name="designTime" type="xs:string" minOccurs="0" />
+							<xs:element name="codingTime" type="xs:string" minOccurs="0" />
+							<xs:element name="testingTime" type="xs:string" minOccurs="0" />
+							<xs:element name="documentation" type="xs:string" minOccurs="0" />
+							<xs:element name="reportFile" type="xs:string" minOccurs="0" />
+							<xs:element name="versionInfoFile" type="xs:string" minOccurs="0" />
+							<xs:element name="workHistoryFile" type="xs:string" minOccurs="0" />
+							<xs:element name="totalTimeOverflow" type="xs:integer"></xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
