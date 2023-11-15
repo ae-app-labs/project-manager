@@ -12,4 +12,4 @@ This project has an interface to create and track the development and time spent
 - Track time for each phase of project
 
 ## Screenshot
-[!screenshot](/assets/screenshots/v1_screenshot.jpg)
+<img alt="Screenshots" src="https://github.com/ae-app-labs/project-manager/blob/main/assets/screenshots/v1_screenshot.jpg?raw=true"/>
